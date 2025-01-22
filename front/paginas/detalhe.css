@@ -12,14 +12,13 @@ body {
   line-height: 1.6;
 }
 
-/* Estilo do cabeçalho */
-header {
+.navbar {
   background-color: #33691E;
+  padding: 40px 30px;
   color: white;
-  padding: 10px 0;
   text-align: center;
+  font-size: 22px;
 }
-
 /* Estilo da navegação */
 nav {
   margin-top: 20px;
@@ -42,7 +41,7 @@ nav {
 
 /* Estilo de cada produto */
 .produto {
-  background-color: #b1b0b0;
+  background-color: #cbcbcb;
   border: 1px solid #848484;
   border-radius: 8px;
   width: 30%;
@@ -70,8 +69,9 @@ nav {
   margin: 15px 0;
 }
 
-.produto button {
-  background-color: #28a745;
+.button {
+  background-color:  #33691E;
+  text-decoration: none;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -80,6 +80,6 @@ nav {
   transition: background-color 0.3s;
 }
 
-.produto button:hover {
-  background-color: #218838;
+.button:hover {
+  background-color: #45a049;
 }

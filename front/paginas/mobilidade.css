@@ -27,6 +27,7 @@ body{
     text-align: center;
     font-size: 29px;
     border-radius: 5px;
+    
   }
   
   .carousel {
@@ -89,7 +90,7 @@ body{
     border: 1px solid #000000; /* Borda fina */
     border-radius: 10px; /* Bordas arredondadas */
     overflow: hidden; /* Garante que o conteúdo não ultrapasse o cartão */
-    background-color: #ffffff;
+    background-color: #cbcbcb;
     margin: 20px; /* Espaço externo */
 }
 
@@ -116,7 +117,7 @@ body{
 /* Texto do cartão */
 .card-text {
     font-size: 1rem; /* Tamanho padrão */
-    color: #000000; /* Cor suave para o texto */
+    color: #666; /* Cor suave para o texto */
     margin-bottom: 15px; /* Espaço abaixo do texto */
     line-height: 1.5; /* Altura da linha */
 }
