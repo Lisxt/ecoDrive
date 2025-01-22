@@ -1,0 +1,85 @@
+/* Resetando algumas margens e paddings padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  background-color: #616161;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #33691E;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Estilo da navegação */
+nav {
+  margin-top: 20px;
+}
+
+/* Seção de produtos */
+#produtos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Flexbox para alinhar os produtos */
+.bicicleta-eletrica {
+  display: flex;
+  justify-content: space-between;  /* Espaçamento entre as divs */
+  flex-wrap: wrap;  /* Para que os itens que não cabem na linha sejam movidos para a próxima linha */
+  gap: 20px;  /* Espaçamento entre os itens */
+}
+
+/* Estilo de cada produto */
+.produto {
+  background-color: #b1b0b0;
+  border: 1px solid #848484;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto h3 {
+  font-size: 1.2em;
+  margin-top: 15px;
+  color: #333;
+}
+
+.produto p {
+  font-size: 1em;
+  color: #666;
+  margin: 15px 0;
+}
+
+.produto button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.produto button:hover {
+  background-color: #218838;
+}
