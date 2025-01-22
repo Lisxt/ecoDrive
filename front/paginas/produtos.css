@@ -1,0 +1,74 @@
+/* Estilo geral do cartão */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #616161;
+    font-family: Arial, sans-serif; /* Fonte */
+}
+.navbar {
+    background-color: #33691E;
+    padding: 40px 30px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+.cartoes{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 18rem; /* Largura do cartão */
+    border: 1px solid #000000; /* Borda fina */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o cartão */
+    background-color: #cbcbcb;
+    margin: 20px; /* Espaço externo */
+}
+.card:hover {
+    transform: scale(1.05); /* Aumenta o cartão em 5% */
+}
+
+/* Estilo da imagem no topo */
+.card-img-top {
+    width: 100%; /* A largura ocupa toda a largura do cartão */
+    height: 300px; /* Altura fixa para todas as imagens */
+}
+
+/* Corpo do cartão */
+.card-body {
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Título do cartão */
+.card-title {
+    font-size: 1.25rem; /* Tamanho maior para o título */
+    font-weight: bold; /* Negrito */
+    color:  #000000; /* Cor do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+/* Texto do cartão */
+.card-text {
+    font-size: 1rem; /* Tamanho padrão */
+    color: #000000; /* Cor suave para o texto */
+    margin-bottom: 15px; /* Espaço abaixo do texto */
+    line-height: 1.5; /* Altura da linha */
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    color:  #ffffff; /* Cor do texto */
+    background-color:  #33691E; /* Cor do botão */
+    cursor: pointer; /* Aponta como botão */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Tom mais escuro ao passar o mouse */
+}

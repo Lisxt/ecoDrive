@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: white; 
+    cursor: pointer; /* Aponta como botão */
 }
 
 .navbar .logo {
@@ -52,7 +53,7 @@
 }
 
 .navbar .botoes a:hover {
-    background-color: #45a049; /* Tom mais escuro */
+    background-color: #45a049;
 }
 /* Responsividade */
 @media (max-width: 768px) {
