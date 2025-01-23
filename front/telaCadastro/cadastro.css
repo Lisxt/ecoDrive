@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.formulario-cadastro {
+    background-color: #33691E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.formulario-cadastro h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.cadastro {
+    margin-bottom: 15px;
+}
+
+.cadastro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.cadastro input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000000; 
+}
+
+.botao-cadastrar {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    background-color: #007bff; 
+    color: white; 
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.botao-cadastrar:hover {
+    background-color:  #0056b3; 
+}
+
+.botao-cadastrar:active {
+    background-color: #45a049; 
+}
+
+.success-message {
+    text-align: center;
+    display: none; 
+    margin-top: 20px; 
+    color: #26ff43; 
+    font-size: 20px; 
+}
+
+
