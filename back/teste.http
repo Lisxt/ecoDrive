@@ -1,0 +1,10 @@
+POST http://localhost:3020/cadastro
+Content-Type: application/json
+
+{
+    "nome" : "julia",
+    "cpf": "141414",
+    "email": "@gmail.com",
+    "idade": "15",
+    "senha": "656546"
+}

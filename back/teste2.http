@@ -1,0 +1,6 @@
+DELETE http://localhost:3020/deletar/cadastro
+Content-Type: application/json
+
+{
+    "cpf": "141414"
+}

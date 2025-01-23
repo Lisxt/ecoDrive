@@ -31,12 +31,11 @@ nav {
   padding: 0 20px;
 }
 
-/* Flexbox para alinhar os produtos */
 .bicicleta-eletrica {
   display: flex;
   justify-content: space-between;  /* Espaçamento entre as divs */
-  flex-wrap: wrap;  /* Para que os itens que não cabem na linha sejam movidos para a próxima linha */
-  gap: 20px;  /* Espaçamento entre os itens */
+  flex-wrap: wrap;  
+  gap: 20px;  
 }
 
 /* Estilo de cada produto */
