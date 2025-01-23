@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #616161;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+.navbar {
+    background-color: #33691E;
+    padding: 40px 30px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+  }
+  nav {
+    margin-top: 20px;
+  }
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
