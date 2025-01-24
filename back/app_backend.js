@@ -16,7 +16,7 @@ app.use(cors());
 const bancoDeDados = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'c@tolic@',
     database: 'ecoDrive'
 })
 
@@ -66,7 +66,7 @@ app.post('/cadastro', (req, res) => {
 
 })
 
-app.delete('/deletar/cadastro', (req, res)=>{
+app.delete('/deletar/usuario', (req, res)=>{
     const { cpf } = req.body;
 
     const deletaCadastro = 'DELETE FROM cadastro WHERE cpf = ?'
