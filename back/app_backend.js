@@ -16,7 +16,7 @@ app.use(cors());
 const bancoDeDados = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'c@tolic@',
     database: 'ecoDrive'
 })
 
