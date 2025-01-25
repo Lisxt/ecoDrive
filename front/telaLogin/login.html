@@ -8,20 +8,22 @@
     <script defer src="login.js"></script>
 </head>
 <body>
-    <div class="login-container">
+    <div class="formulario-login">
         <h1>Login</h1>
-        <form id="login-form">
-            <div class="form-group">
+        <form id="formulario" method="post">
+            <div class="preenchimento">
+            <div class="login">
                 <label for="cpf">CPF</label>
                 <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
             </div>
-            <div class="form-group">
+            <div class="login">
                 <label for="password">Senha</label>
                 <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
             </div>
             <div class="form-actions">
                 <button type="submit">Entrar</button>
-            </div> 
+            </div>
+            </div>
         </form>
 
         <!-- Formulário separado para deletar usuário -->

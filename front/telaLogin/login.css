@@ -15,7 +15,7 @@ body {
     margin: 0;
 }
 
-.login-container {
+.formulario-login {
     background: #616161;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,28 +24,31 @@ body {
     max-width: 400px;
 }
 
-.login-container h1 {
+.formulario-login h1 {
     color: #ffffff;
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.form-group {
-    margin-bottom: 15px;
-    text-align: left;
-    width: 100%;
+.preenchimento {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.form-group label {
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 5px;
-    display: block;
 }
 
-.form-group input {
-    width: 100%;
+.login input {
     padding: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
@@ -54,7 +57,7 @@ body {
     transition: border-color 0.3s;
 }
 
-.form-group input:focus {
+.login input:focus {
     border-color: #3c6896;
 }
 
@@ -72,7 +75,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background 0.3s;
-    width: 100%;
+    width: 160px;
 }
 
 .form-actions button:hover {
