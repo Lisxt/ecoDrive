@@ -85,25 +85,3 @@ app.delete('/deletar/usuario', (req, res)=>{
 app.listen(3020, ()=>{
     console.log("Opa opa o servidor está rodando! ;)")
 })
-
-/* obs. Para iniciar esse serviço, abra a pasta desse projeto no terminal e digite node ./app_backend.js  (Esse nome deve ser igual ao nome do seu arquivo).
-
-Se tudo correr bem, deve aparecer uma mensagem semelhante a essa 'Opa opa o servidor está rodando! ;)'
-se conexão com o banco de dados for estabelecida, deve aparecer uma mensagem semelhante a essa: 'Conectado ao banco de dados com sucesso'
-
-*/
-
-
-// Vou deixar aqui em baixo as funções que uso para formatar os textos, exemplo datas
-function formatarDataTime(date) {
-    const d = new Date(date);
-    const year = d.getFullYear();
-    const month = (d.getMonth() + 1).toString().padStart(2, '0');  // Meses começam do 0, então somamos 1
-    const day = d.getDate().toString().padStart(2, '0');
-    const hours = d.getHours().toString().padStart(2, '0');
-    const minutes = d.getMinutes().toString().padStart(2, '0');
-    const seconds = d.getSeconds().toString().padStart(2, '0');
-    
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-  }
-  

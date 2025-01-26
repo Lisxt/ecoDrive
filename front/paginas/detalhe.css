@@ -1,11 +1,9 @@
-/* Resetando algumas margens e paddings padrões */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilo do corpo da página */
 body {
   background-color: #616161;
   font-family: Arial, sans-serif;
@@ -19,7 +17,6 @@ body {
   text-align: center;
   font-size: 22px;
 }
-/* Estilo da navegação */
 nav {
   margin-top: 20px;
 }
@@ -33,12 +30,11 @@ nav {
 
 .bicicleta-eletrica {
   display: flex;
-  justify-content: space-between;  /* Espaçamento entre as divs */
+  justify-content: space-between;  
   flex-wrap: wrap;  
   gap: 20px;  
 }
 
-/* Estilo de cada produto */
 .produto {
   background-color: #cbcbcb;
   border: 1px solid #848484;

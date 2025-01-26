@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     color: white; 
-    cursor: pointer; /* Aponta como botão */
+    cursor: pointer; 
 }
 
 .navbar .logo {
@@ -37,13 +37,13 @@
 }
 
 .navbar .nav-links li a:hover {
-    color: #b3e89f; /* Um verde mais claro */
+    color: #b3e89f; 
 }
 
 .navbar .botoes a {
     text-decoration: none;
     color: white;
-    background-color: #03A9F4; /* Verde claro */
+    background-color: #03A9F4; 
     padding: 15px 15px;
     border-radius: 5px;
     margin-left: 10px;
@@ -73,7 +73,7 @@
 }
 
 .imagem{
-    background-color: #616161; /* Fundo da div */
+    background-color: #616161;
     padding: 10px;
     text-align: center;
 }

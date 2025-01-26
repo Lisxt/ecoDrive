@@ -21,8 +21,8 @@ body {
 }
 
 .quadrado {
-    width: 512px; /* 320px * 1.6 */
-    padding: 32px; /* 20px * 1.6 */
+    width: 512px; 
+    padding: 32px; 
     background-color: #33691E;
     color: white;
     display: flex;
@@ -30,11 +30,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 16px; /* 10px * 1.6 */
+    border-radius: 16px; 
 }
 
 h1 {
-    margin-bottom: 32px; /* 20px * 1.6 */
+    margin-bottom: 32px; 
 }
 
 form {
@@ -44,26 +44,26 @@ form {
 }
 
 label {
-    margin-bottom: 8px; /* 5px * 1.6 */
-    font-size: 22px; /* 14px * 1.6 */
+    margin-bottom: 8px; 
+    font-size: 22px; 
 }
 
 input {
-    margin-bottom: 24px; /* 15px * 1.6 */
-    padding: 16px; /* 10px * 1.6 */
-    font-size: 22px; /* 14px * 1.6 */
+    margin-bottom: 24px; 
+    padding: 16px; 
+    font-size: 22px;
     border: 1px solid #ddd;
-    border-radius: 8px; /* 5px * 1.6 */
+    border-radius: 8px; 
 }
 
 button {
-    padding: 16px; /* 10px * 1.6 */
+    padding: 16px; 
     background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 8px; /* 5px * 1.6 */
+    border-radius: 8px; 
     cursor: pointer;
-    font-size: 26px; /* 16px * 1.6 */
+    font-size: 26px; 
 }
 
 button:hover {
@@ -72,11 +72,11 @@ button:hover {
 
 .links a {
     display: block;
-    margin-top: 16px; /* 10px * 1.6 */
-    padding: 16px; /* 10px * 1.6 */
-    font-size: 22px; /* 14px * 1.6 */
+    margin-top: 16px; 
+    padding: 16px; 
+    font-size: 22px; 
     text-decoration: none;
-    border-radius: 8px; /* 5px * 1.6 */
+    border-radius: 8px; 
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
