@@ -1,0 +1,14 @@
+CREATE DATABASE ecoDrive;
+use ecoDrive;
+
+CREATE TABLE cadastro(
+nome VARCHAR(50),
+cpf VARCHAR(20),
+email VARCHAR(20),
+idade VARCHAR(10), 
+senha VARCHAR(20)
+)
+
+SELECT *FROM cadastro;
+
+//drop database ecodrive;
