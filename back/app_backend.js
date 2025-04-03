@@ -15,7 +15,7 @@ app.use(cors());
 // Configuração do banco de dados
 const bancoDeDados = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: '',
     password: '',
     database: 'ecoDrive'
 })
